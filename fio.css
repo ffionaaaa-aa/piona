@@ -1,0 +1,137 @@
+/*part 1:mengatur tampilan web secara umum*/
+/* pengatur font yang akan di gunakan dengan cara mengaksesnya secara online dengan menggunakan perintah import*/
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap);
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+header{
+    position:static ;/*mengikuti ukuran halaman web dalam hal ini posisinya*/
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background-color: #483b2b;
+}
+.logo {
+    font-size: xx-large;
+    color:rgb(51, 23, 2) ;/*mengatur warna logo*/
+}
+.logo span {
+    color:rgb(188, 162, 143);
+}
+.navigation {
+    margin-left: 300px;
+}
+
+.navigation a {
+    font-size: large;
+    /* mengatur ukuran huruf navigasi atau menu*/
+    color: rgb(229, 144, 104);
+    /*mengatur warna menu*/
+    margin-right: 35px;
+    /*mengatur jarak antar menu (home, portopolio, dll)*/
+    text-decoration: none;
+    /*menghilangkan underline*/
+    font-weight: 500;
+    /*mengatur ketebalan huruf*/
+    transition: .10s;
+}
+
+.navigation a:hover{
+    color:rgb(234, 172, 86)
+}
+
+.home {
+    position: relative;
+    width: 100%; /* mengatur tinggi gambar*/
+    height: 115vh; /* mengatur lebar gambar*/
+    background: url(fiona\ 2.jpg); /*menambahkan gambar*/
+    background-size: cover; /*mengatur size gmbr*/
+    background-position: center; /*mengatur posisi gmbr*/
+    display: flex; /*mengatur letak*/
+    align-items: center;
+    padding: 20px 60px;
+}
+
+section h2{
+    font-size: xx-large;
+    position: relative;
+    margin-bottom: 9px;
+    font-weight: 700;
+    color: rgb(81, 47, 5);
+}
+
+
+section h3{
+    font-size: x-large;
+    position: relative;
+    margin-bottom: 3px;
+    font-weight: 700;
+    color: rgb(145, 85, 36);
+}
+
+section p{
+    font-size: larger;
+    position: static;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-weight: 600;
+    color: rgb(84, 60, 20);
+    text-align: justify;
+}
+
+.btn-group {
+    display: flex;
+    gap: 10px;
+    color: #372009;
+    text-decoration: none; /* Hilangkan garis bawah */
+}
+
+.btn-group button {
+    font-size: large;
+    background-color: #975a1c; /* Warna background tombol */
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight:bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color .20s;
+}
+
+.btn-group :hover {
+    color: #291807;
+    background-color:bisque;
+}
+
+.social-icons {
+    display: flex;
+    gap: 5px;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+}
+
+.social-icons {
+    font-size: 30px;
+    color: #8e6532;
+    border-radius: 100%;
+    padding: 10px;
+    cursor: pointer;
+    transition: color 0.3s, background-color 0.3s, transform 0.3s;
+}
+
+.social-icons:hover {
+    color: beige;
+    transform: scale(.10s);
+}
+/*part 2: mangatur setiap kelas yang sudah didefinisikan di HTML*/
+
