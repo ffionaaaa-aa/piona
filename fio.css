@@ -23,7 +23,7 @@ header{
 }
 .logo {
     font-size: xx-large;
-    color:rgb(51, 23, 2) ;/*mengatur warna logo*/
+    color:rgb(202, 150, 111) ;/*mengatur warna logo*/
 }
 .logo span {
     color:rgb(188, 162, 143);
@@ -62,6 +62,11 @@ header{
     padding: 20px 60px;
 }
 
+.content {
+    max-width: 500px;
+    color: #8e6532;
+}
+
 section h2{
     font-size: xx-large;
     position: relative;
@@ -70,23 +75,28 @@ section h2{
     color: rgb(81, 47, 5);
 }
 
-
-section h3{
-    font-size: x-large;
-    position: relative;
-    margin-bottom: 3px;
-    font-weight: 700;
-    color: rgb(145, 85, 36);
+.content h2 {
+    font-size: 50px;
 }
 
-section p{
-    font-size: larger;
-    position: static;
-    margin-top: 1px;
-    margin-bottom: 1px;
-    font-weight: 600;
-    color: rgb(84, 60, 20);
-    text-align: justify;
+.content h2 span {
+    color: #8e632d;
+}
+
+.content h3 {
+    font-size: 34px;
+}
+
+.content p {
+    padding: 5px 0 4px 0;
+}
+
+section p {
+    font-size: large;
+    position: relative;
+    margin-bottom: 0px;
+    font-weight: 700;
+    color: rgb(81, 47, 5);
 }
 
 .btn-group {
@@ -96,7 +106,7 @@ section p{
     text-decoration: none; /* Hilangkan garis bawah */
 }
 
-.btn-group button {
+.btn-group button{
     font-size: large;
     background-color: #975a1c; /* Warna background tombol */
     padding: 10px 20px;
@@ -108,8 +118,7 @@ section p{
 }
 
 .btn-group :hover {
-    color: #291807;
-    background-color:bisque;
+    background-color: #f7d2a5;
 }
 
 .social-icons {
